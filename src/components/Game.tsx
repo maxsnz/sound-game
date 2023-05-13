@@ -40,7 +40,6 @@ const Game: React.FC<{ volDiff: number }> = ({ volDiff }) => {
   const [state, setState] = useState("initial");
 
   const onEnd = () => {
-    console.log("end");
     setState("finish");
   };
 
